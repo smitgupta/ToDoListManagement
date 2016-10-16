@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do Management</title>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/ui-grid.css" />
+	<link rel="stylesheet" href="css/todo.css" />
+	
+	<link rel="shortcut icon" type="image/png" href="css/jasmine/jasmine_favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/jasmine/jasmine.css">
+</head>
+<body ng-app='ToDo_App'>
+	<header>
+		<div ng-include='"templates/PRTL_Header.html"'></div>
+	</header>
+	<article>
+		<div ui-view></div>
+	</article>
+	<footer ng-include='"templates/PRTL_Footer.html"'></footer>
+	
+	
+	<script src="js/lib/jquery-1.12.3.min.js"></script>
+	<script src="js/lib/angular.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
+	<script src="js/lib/angular-ui-router.js"></script>
+	<script src="js/lib/ui-grid.js"></script>
+	
+	<script src="js/app.js"></script>
+	<script src="js/controllers/CTRL_Home.js"></script>
+	
+	<script src="data/To_Do_List.json"></script>
+	
+	<script type="text/javascript" src="js/lib/jasmine/jasmine.js"></script>
+	<script type="text/javascript" src="js/lib/jasmine/jasmine-html.js"></script>
+	<script type="text/javascript" src="js/lib/jasmine/boot.js"></script>
+	<script src="js/lib/angularMock/angular-mocks.js"></script>
+	<script src="js/unitTesting/TestController.js"></script>
+	<script src="js/unitTesting/bootstrapTest.js"></script>
+</body>
+</html>

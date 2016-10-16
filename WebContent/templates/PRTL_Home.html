@@ -1,0 +1,18 @@
+<div class="mainContainer">
+	<div class="t2 darkBlue paddingTop20px paddingLeft20px paddingBottom10px">The To-Do items to be taken care of are shown below. Please perform operations as required.</div>
+	
+	<div id="toDoGrid" ui-grid="homeCtrl.toDoGridConfig" ui-grid-edit ui-grid-row-edit ui-grid-auto-resize
+		class="marginLeft20px marginRight20px marginBottom20px height314px">
+	</div>
+	<div class="marginBottom20px">
+		<button class="btn-primary marginLeft20px inline" ng-click="homeCtrl.addNewtask();">Add New Task</button>
+		<div class="marginLeft20px t5 inline">*On adding a new task, please double click on newly created cell under 'Item Name' to edit value.</div>
+	</div>
+	
+	<div class="btn paddingLeft20px"><a ng-click="homeCtrl.refreshCompletedItems()">Click Here</a> to refresh list of 'Completed' items to be shown below.</div>
+	<div id="toDoCompletedGrid" ng-if="homeCtrl.toDoCompletedGridConfig.data.length>0" ui-grid="homeCtrl.toDoCompletedGridConfig" ui-grid-auto-resize
+		class="marginTop10px marginLeft20px marginRight20px marginBottom20px width500px height212px">
+	</div>
+	<div ng-include='"templates/PRTL_RemoveTaskConfirmationModal.html"'></div>
+	<div ng-include='"templates/PRTL_AlertModal.html"'></div>
+</div>

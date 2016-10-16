@@ -1,0 +1,90 @@
+.t1{
+	font-size: 55px;
+	font-family: Georgia, serif;
+}
+.t2{
+	font-size: 18px;
+    font-family: arial;
+}
+.t3{
+	font-family: serif;
+    font-size: 26px;
+    color: brown;
+}
+.t4{
+	font-size: 24px;
+    font-variant: small-caps;
+}
+.t5{
+	font-size: 12px;
+    font-family: sans-serif;
+    color: darkgoldenrod;
+}
+.headerContainer{
+	border: 1px solid;
+	border-color: rgba(23, 46, 110, 0.95);
+	background-color: rgba(140, 225, 178, 0.25);
+	padding: 20px 0px 20px 50px;
+}
+.mainContainer{
+	border: 1px solid;
+	border-color: rgba(23, 46, 110, 0.95);
+	background-color: rgba(18, 103, 164, 0.06);
+}
+.paddingTop10px{
+	padding-top: 10px;
+}
+.paddingTop20px{
+	padding-top: 20px;
+}
+.paddingLeft20px{
+	padding-left: 20px;
+}
+.paddingRight20px{
+	padding-right: 20px;
+}
+.paddingBottom20px{
+	padding-bottom: 20px;
+}
+.centerAlign{
+	text-align: center;
+}
+.marginLeft20px{
+	margin-left: 20px;
+}
+.marginRight20px{
+	margin-right: 20px;
+}
+.marginBottom20px{
+	margin-bottom: 20px;
+}
+.marginTop10px{
+	margin-top: 10px;
+}
+.marginBottom8px{
+	margin-bottom: 8px;
+}
+.paddingBottom10px{
+	padding-bottom: 10px;
+}
+.ui-grid-header-cell{
+	background-color: rgba(23, 145, 131, 0.29);
+}
+.darkBlue{
+	color: #3a088b;
+}
+.darkGrey{
+	color: #4e6779;
+}
+.width500px{
+	width: 500px;
+}
+.height314px{
+	height: 314px;
+}
+.height212px{
+	height: 212px;
+}
+.inline{
+	display: inline;
+}
